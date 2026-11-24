@@ -1,0 +1,56 @@
+# Flutter and Dart Build Artifacts
+.dart_tool/
+.packages
+build/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+
+# Flutter tool cache
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE and Editor Files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Android Local Files
+**/android/local.properties
+**/android/.gradle/
+**/android/app/build/
+**/android/captures/
+**/android/gradle/wrapper/gradle-wrapper.jar
+
+# iOS / macOS Ephemeral Files
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/DerivedData/
+**/ios/.symlinks/
+**/ios/Pods/
+
+# Windows / Linux Ephemeral Files
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Private Credentials and Configuration
+*.env
+*.env.*
+**/google-services.json
+**/GoogleService-Info.plist
+*.keystore
+*.jks
+service_account*.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+**/firebase.env.json

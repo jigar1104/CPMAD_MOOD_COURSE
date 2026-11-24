@@ -1,0 +1,23 @@
+name: notes_app
+publish_to: none
+description: Full offline Notes App with SQLite persistence in Flutter
+version: 1.0.0
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.6
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.4.2
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

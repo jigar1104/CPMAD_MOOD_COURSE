@@ -1,0 +1,8 @@
+name: dart_basics
+description: Dart programming language basics and OOP concepts.
+version: 1.0.0
+environment:
+  sdk: ^3.12.2
+
+dev_dependencies:
+  lints: ^6.1.0

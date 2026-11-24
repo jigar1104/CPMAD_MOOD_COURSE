@@ -1,0 +1,19 @@
+name: getx_example
+publish_to: none
+description: Reactive state management using GetX in Flutter
+version: 1.0.0
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
